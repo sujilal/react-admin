@@ -20,45 +20,45 @@ const Projects = () => {
             <table className="table m-0">
               <thead>
                 <tr>
-                  <th>Order ID</th>
-                  <th>Item</th>
-                  <th>Status</th>
+                  <th>Projects</th>
+                  <th>Start Date & Date</th>
+                  <th>Due</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
                   <td>CKM</td>
-                  <td>Call of Duty IV</td>
+                  <td>Oct 5 to Oct 10</td>
                   <td>
-                    <span className="badge badge-success">Shipped</span>
+                    <span className="badge day">-2</span>
                   </td>
                 </tr>
                 <tr>
                   <td>Other 1</td>
-                  <td>Samsung Smart TV</td>
+                  <td>Oct 5 to Oct 10</td>
                   <td>
-                    <span className="badge badge-warning">Pending</span>
+                    <span className="badge day">-2</span>
                   </td>
                 </tr>
                 <tr>
                   <td>Other 2</td>
-                  <td>iPhone 6 Plus</td>
+                  <td>Oct 5 to Oct 10</td>
                   <td>
-                    <span className="badge badge-danger">Delivered</span>
+                    <span className="badge day">-2</span>
                   </td>
                 </tr>
                 <tr>
                   <td> Other 3</td>
-                  <td>Samsung Smart TV</td>
+                  <td>Oct 5 to Oct 10</td>
                   <td>
-                    <span className="badge badge-info">Processing</span>
+                    <span className="badge day">-2</span>
                   </td>
                 </tr>
                 <tr>
                   <td> Other 3</td>
-                  <td>Samsung Smart TV</td>
+                  <td>Oct 5 to Oct 10</td>
                   <td>
-                    <span className="badge badge-info">Processing</span>
+                    <span className="badge day">-2</span>
                   </td>
                 </tr>
               </tbody>

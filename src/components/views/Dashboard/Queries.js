@@ -1,14 +1,14 @@
 import React from "react";
 
-const UpcomingTasks = () => {
+const Queries = () => {
   return (
-    <div class="col-md-4">
+    <div class="col-md-9">
       <div className="card">
         <div className="card-header border-transparent">
           <h3 className="card-title">
-            Upcoming Task{" "}
+            Overdue Tasks{" "}
             <span>
-              <b>08</b>
+              <b>08</b>{" "}
             </span>
           </h3>
           <div className="card-tools">{/* progress */}</div>
@@ -20,7 +20,8 @@ const UpcomingTasks = () => {
               <thead>
                 <tr>
                   <th>Company</th>
-                  <th>Tasks</th>
+                  <th>Task</th>
+                  <th>Status</th>
                   <th>Days</th>
                 </tr>
               </thead>
@@ -36,7 +37,9 @@ const UpcomingTasks = () => {
                   </td>
 
                   <td>Payroll to be Processed</td>
-
+                  <td>
+                    <span className="badge  overdue">Overdue</span>
+                  </td>
                   <td>
                     <span className="badge day">-2</span>
                   </td>
@@ -51,7 +54,9 @@ const UpcomingTasks = () => {
                     Oracle
                   </td>
                   <td>Compliance Report</td>
-
+                  <td>
+                    <span className="badge  overdue">Overdue</span>
+                  </td>
                   <td>
                     <span className="badge day">-2</span>
                   </td>
@@ -66,7 +71,9 @@ const UpcomingTasks = () => {
                     Advanced Millennium…
                   </td>
                   <td>Payroll Deliverable</td>
-
+                  <td>
+                    <span className="badge due">Due</span>
+                  </td>
                   <td>
                     <span className="badge day">-2</span>
                   </td>
@@ -81,7 +88,9 @@ const UpcomingTasks = () => {
                     Advanced Millennium…
                   </td>
                   <td>Payroll Deliverable</td>
-
+                  <td>
+                    <span className="badge due">Due</span>
+                  </td>
                   <td>
                     <span className="badge day">-2</span>
                   </td>
@@ -97,4 +106,4 @@ const UpcomingTasks = () => {
   );
 };
 
-export default UpcomingTasks;
+export default Queries;
