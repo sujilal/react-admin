@@ -2,8 +2,13 @@ import React from "react";
 import logo from "./logo.png";
 import profile from "./profile.png";
 import { Button } from "antd";
+import Moment from "react-moment";
+import Timer from "react-compound-timer";
 
 const NavBar = () => {
+  const date = new Date();
+  const today = date;
+
   return (
     <div className="container-fluid">
       {/* Navbar */}
@@ -53,7 +58,9 @@ const NavBar = () => {
             <li className="nav-item ">
               <span className="nav-link">
                 <i class="fas fa-calendar-alt"></i>
-                <span className="date">07-Nov-2019</span>
+                <span className="date">
+                  <Moment format="DD-MMM-YYYY">{today}</Moment>
+                </span>
               </span>
             </li>
             {/* Notifications Dropdown Menu */}

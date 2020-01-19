@@ -35,7 +35,16 @@ const Updates = () => {
               </Timeline>
             </TabPane>
             <TabPane tab="All" key="2">
-              Content of Tab Pane 2
+              <Timeline>
+                <Timeline.Item>
+                  Production server down{" "}
+                  <span class="timeine-seen"> just now </span>{" "}
+                </Timeline.Item>
+                <Timeline.Item>
+                  Production server down{" "}
+                  <span class="timeine-seen"> just now </span>{" "}
+                </Timeline.Item>
+              </Timeline>
             </TabPane>
           </Tabs>
         </div>

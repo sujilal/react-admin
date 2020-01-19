@@ -16,7 +16,7 @@ const Breadcrumb = () => {
                 <li className="breadcrumb-item">
                   <a href="demo">Home</a>
                 </li>
-                <li className="breadcrumb-item active">Dashboard v2</li>
+                <li className="breadcrumb-item active">Dashboard</li>
               </ol>
             </div>
           </div>

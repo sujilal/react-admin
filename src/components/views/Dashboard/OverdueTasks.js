@@ -11,7 +11,7 @@ const OverdueTasks = () => {
               <b>08</b>{" "}
             </span>
           </h3>
-          <div className="card-tools">{/* progress */}</div>
+          <div className="card-tools"></div>
         </div>
         {/* /.card-header */}
         <div className="card-body p-0">
