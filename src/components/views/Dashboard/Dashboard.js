@@ -3,6 +3,7 @@ import OverdueTasks from "./OverdueTasks";
 import UpcomingTasks from "./UpcomingTasks";
 import Projects from "./Projects";
 import Queries from "./Queries";
+import Updates from "./Updates";
 
 const Dashboard = () => {
   return (
@@ -12,6 +13,7 @@ const Dashboard = () => {
         <UpcomingTasks />
         <Projects />
         <Queries />
+        <Updates />
       </div>
     </div>
   );

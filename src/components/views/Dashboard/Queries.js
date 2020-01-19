@@ -1,4 +1,5 @@
 import React from "react";
+import { Button } from "antd";
 
 const Queries = () => {
   return (
@@ -11,7 +12,10 @@ const Queries = () => {
               <b>08</b>{" "}
             </span>
           </h3>
-          <div className="card-tools">{/* progress */}</div>
+          <div className="card-tools">
+            <Button type="primary">Employee</Button>
+            <Button>Employer</Button>
+          </div>
         </div>
         {/* /.card-header */}
         <div className="card-body p-0">
@@ -20,9 +24,11 @@ const Queries = () => {
               <thead>
                 <tr>
                   <th>Company</th>
-                  <th>Task</th>
-                  <th>Status</th>
-                  <th>Days</th>
+                  <th>Employer Queries</th>
+                  <th>TAT 0 - 8</th>
+                  <th>TAT 8 - 16</th>
+                  <th>TAT 16 - 24</th>
+                  <th>TAT 24+</th>
                 </tr>
               </thead>
               <tbody>
@@ -37,12 +43,10 @@ const Queries = () => {
                   </td>
 
                   <td>Payroll to be Processed</td>
-                  <td>
-                    <span className="badge  overdue">Overdue</span>
-                  </td>
-                  <td>
-                    <span className="badge day">-2</span>
-                  </td>
+                  <td>01</td>
+                  <td>02</td>
+                  <td>00</td>
+                  <td>00</td>
                 </tr>
                 <tr>
                   <td>
@@ -54,12 +58,10 @@ const Queries = () => {
                     Oracle
                   </td>
                   <td>Compliance Report</td>
-                  <td>
-                    <span className="badge  overdue">Overdue</span>
-                  </td>
-                  <td>
-                    <span className="badge day">-2</span>
-                  </td>
+                  <td>01</td>
+                  <td>02</td>
+                  <td>00</td>
+                  <td>00</td>
                 </tr>
                 <tr>
                   <td>
@@ -71,12 +73,10 @@ const Queries = () => {
                     Advanced Millennium…
                   </td>
                   <td>Payroll Deliverable</td>
-                  <td>
-                    <span className="badge due">Due</span>
-                  </td>
-                  <td>
-                    <span className="badge day">-2</span>
-                  </td>
+                  <td>01</td>
+                  <td>02</td>
+                  <td>00</td>
+                  <td>00</td>
                 </tr>
                 <tr>
                   <td>
@@ -88,12 +88,10 @@ const Queries = () => {
                     Advanced Millennium…
                   </td>
                   <td>Payroll Deliverable</td>
-                  <td>
-                    <span className="badge due">Due</span>
-                  </td>
-                  <td>
-                    <span className="badge day">-2</span>
-                  </td>
+                  <td>01</td>
+                  <td>02</td>
+                  <td>00</td>
+                  <td>00</td>
                 </tr>
               </tbody>
             </table>

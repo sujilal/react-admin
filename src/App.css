@@ -191,3 +191,24 @@ body {
   font-size: 10px;
   color: #848484;
 }
+
+.ant-timeline {
+  padding: 10px;
+}
+
+.timeine-seen {
+  float: right;
+}
+
+.ant-timeline-item-head-blue {
+  color: #797979;
+  border-color: #797979;
+}
+.ant-timeline-item-head {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: #797979;
+  border: 2px solid transparent;
+  border-radius: 100px;
+}
