@@ -3,7 +3,6 @@ import logo from "./logo.png";
 import profile from "./profile.png";
 import { Button } from "antd";
 import Moment from "react-moment";
-import Timer from "react-compound-timer";
 
 const NavBar = () => {
   const date = new Date();
